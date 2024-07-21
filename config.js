@@ -23,11 +23,11 @@ global.APIKeys = {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 global.session = process.env.SESSION_ID || 'PUT HERE',
 global.ownername = process.env.OWNER_NAME === undefined ? "DarkWinzo" : process.env.OWNER_NAME
-let fake = process.env.OWNER_NUMBER === undefined ? '94775200935' : process.env.OWNER_NUMBER
+let fake = process.env.OWNER_NUMBER === undefined ? '+37367228022' : process.env.OWNER_NUMBER
 global.owner = [`${fake}`]
 global.ownernumber = [`${fake}`]
 global.premium = [`${fake}`]
-global.anticall = process.env.ANTICALL === undefined ? 'false' : process.env.ANTICALL
+global.anticall = process.env.ANTICALL === undefined ? 'true' : process.env.ANTICALL
 global.packname = process.env.PACK_NAME === undefined ? 'Queen-MD' : process.env.PACK_NAME
 global.author = process.env.STICKER_AUTHOR_NAME === undefined ? 'DarkWinzo' : process.env.STICKER_AUTHOR_NAME
 global.pmblock = process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK
@@ -35,7 +35,7 @@ global.chatbot_pm = process.env.PM_CHATBOT === undefined ? 'false' : process.env
 global.chatbot_group = process.env.GROUP_CHATBOT === undefined ? 'false' : process.env.GROUP_CHATBOT
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-global.Botname = 'Q'+'ᴜ'+'ᴇ'+'ᴇ'+'ɴ'+'-'+'ᴍ'+'ᴅ'
+global.Botname = 'Robert ciontolac'
 global.prefa = ['.']
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
